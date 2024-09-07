@@ -21,7 +21,7 @@ async def delay_time(ms):
 browser = None
 
 # telegram消息
-message = 'serv00&ct8自动化脚本运行\n'
+message = '哎呦喂\n'
 
 async def login(username, password, panel):
     global browser
@@ -68,7 +68,7 @@ async def login(username, password, panel):
 
 async def main():
     global message
-    message = 'serv00&ct8自动化脚本运行\n'
+    message = '3天登录一次所有的ser00🥁\n'
 
     try:
         async with aiofiles.open('accounts.json', mode='r', encoding='utf-8') as f:
@@ -112,8 +112,8 @@ async def send_telegram_message(message):
             'inline_keyboard': [
                 [
                     {
-                        'text': '问题反馈❓',
-                        'url': 'https://t.me/yxjsjl'
+                        'text': '家里的谷歌浏览器DONGgithub❓',
+                        'url': 'https://github.com/youqishi1/serv00---/edit/main/login_script.py'
                     }
                 ]
             ]
